@@ -3,7 +3,7 @@
   "rules": [
     {
       "when": { "closure": "checkSum", "minSum": 0, "maxSum": 99 },
-      "then": { "closure": "addPoints", "points": 100 }
+      "then": { "closure": "addPoints", "points": 0 }
     },
     {
       "when": { "closure": "checkSum", "minSum": 100, "maxSum": 499 },
@@ -11,11 +11,11 @@
     },
     {
       "when": { "closure": "checkSum", "minSum": 500, "maxSum": 999 },
-      "then": { "closure": "addPoints", "points": 100 }
+      "then": { "closure": "addPoints", "points": 500 }
     },
     {
       "when": { "closure": "checkSum", "minSum": 1000},
-      "then": { "closure": "addPoints", "points": 100 }
+      "then": { "closure": "addPoints", "points": 1000 }
     }
   ]
 }
